@@ -1,0 +1,181 @@
+[
+  {
+    "project": "Fusion Video",
+    "date": "2026-10-22",
+    "kind": "image",
+    "model": "gpt-image-2",
+    "parameters": {
+      "model": "gpt-image-2",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing": {
+      "model": "gpt-image-2",
+      "type": "image",
+      "conditions": {
+        "resolution": "1K",
+        "n": 1,
+        "input_image_count": 0
+      },
+      "currency": "USD",
+      "unit": "request",
+      "price_basis": "request",
+      "charge_type": "per_request",
+      "maximum_unit_price": "0.015",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.015"
+        }
+      ],
+      "queried_at": "2026-10-22T01:59:20.377216+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.015",
+    "status": "completed",
+    "cost": {
+      "model": "gpt-image-2",
+      "billing_status": "unavailable",
+      "actual_cost_usd": null,
+      "actual_credits": null
+    },
+    "file": "assets/gpt-image-2-a8420dab78.png",
+    "native_application_verified": false,
+    "is_actual_charge": false,
+    "case_price_usd": "0.015",
+    "price_basis": "Same-key quotation; actual settlement unavailable",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "project": "Fusion Video",
+    "date": "2026-10-22",
+    "kind": "image",
+    "model": "gpt-image-2.5-flare",
+    "parameters": {
+      "model": "gpt-image-2.5-flare",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      },
+      "quality": "high"
+    },
+    "pricing": {
+      "model": "gpt-image-2.5-flare",
+      "type": "image",
+      "conditions": {
+        "resolution": "1K",
+        "n": 1,
+        "input_image_count": 0,
+        "quality": "high"
+      },
+      "currency": "USD",
+      "unit": "request",
+      "price_basis": "request",
+      "charge_type": "per_request",
+      "maximum_unit_price": "0.0225",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "quality": "high",
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.0225"
+        }
+      ],
+      "queried_at": "2026-10-22T01:59:21.575559+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.0225",
+    "status": "completed",
+    "cost": {
+      "model": "gpt-image-2.5-flare",
+      "billing_status": "unavailable",
+      "actual_cost_usd": null,
+      "actual_credits": null
+    },
+    "file": "assets/gpt-image-2.5-flare-af3362f94f.png",
+    "native_application_verified": false,
+    "is_actual_charge": false,
+    "case_price_usd": "0.0225",
+    "price_basis": "Same-key quotation; actual settlement unavailable",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "project": "Fusion Video",
+    "date": "2026-10-22",
+    "kind": "video",
+    "model": "MiniMax-H3-Max-Turbo",
+    "parameters": {
+      "model": "MiniMax-H3-Max-Turbo",
+      "duration": 5,
+      "resolution": "480P",
+      "aspect_ratio": "16:9"
+    },
+    "pricing": {
+      "model": "MiniMax-H3-Max-Turbo",
+      "type": "video",
+      "conditions": {
+        "duration": 5,
+        "resolution": "480P"
+      },
+      "currency": "USD",
+      "unit": "second",
+      "price_basis": "output_seconds",
+      "charge_type": "per_second",
+      "maximum_unit_price": "0.025",
+      "prices": [
+        {
+          "charge_type": "per_second",
+          "conditions": {
+            "duration": 5,
+            "resolution": "480P"
+          },
+          "group": "default",
+          "price_basis": "output_seconds",
+          "unit": "second",
+          "unit_price": "0.025"
+        }
+      ],
+      "queried_at": "2026-10-22T01:59:22.878695+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.125",
+    "status": "completed",
+    "cost": {
+      "model": "MiniMax-H3-Max-Turbo",
+      "billing_status": "settled",
+      "actual_cost_usd": "0.125",
+      "actual_credits": "25"
+    },
+    "file": "assets/MiniMax-H3-Max-Turbo-767400ee90.mp4",
+    "native_application_verified": false,
+    "is_actual_charge": true,
+    "case_price_usd": "0.125",
+    "price_basis": "API billing=settled",
+    "seconds": "5.18",
+    "width": 832,
+    "height": 480,
+    "fully_decoded": true,
+    "actual_usd_per_second": "0.02413127413127413127413127413",
+    "preview": "assets/MiniMax-H3-Max-Turbo-767400ee90.jpg"
+  }
+]
